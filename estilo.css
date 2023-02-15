@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-header {
+    background-image: url(/02/imagens/topo.jpg);
+    height: 600px;
+    background-position: right center;
+    background-size: cover;
+    border-top: 1px solid transparent;
+    border-radius: 15px;
+}
+
+
+img {
+    margin-left: 15%;
+    padding-top: 15px;
+    height: 40px;
+}
+
+.container-li {
+    display: inline-block;
+    list-style: none;
+    border: 1px solid white;
+    margin-left: 10px;
+    border-top-right-radius: 15px;
+}
+
+.container-a {
+    background: rgba(0, 0, 0, 0.3);
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+ul {
+    text-align: right;
+    margin-top: -30px;
+    margin-right: 100px;
+}
+
+.container-a:hover {
+    color: rgb(127, 129, 129);
+    background-color: rgb(236, 247, 243);
+    border-top-right-radius: 15px;
+}
+
+.container-main {
+    margin-top: 80px;
+}
+
+.container-h1 {
+    text-transform: initial;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.paragrafo1 {
+    margin-left: 30%;
+    margin-right: 30%;
+    text-transform: initial;
+    text-align: center;
+}
+
+.imagem {
+    width: 32%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.imagem img {
+    width: 450px;
+    height: auto;
+    margin-top: 60px;
+    border-radius: 15px;
+}
+
+.imagem-1,
+.imagem-2 {
+    margin-right: 2%;
+}
+
+.imagem p {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.h2 {
+    margin-left: 190px;
+    margin-top: 600px;
+    color: white;
+    letter-spacing: 12px;
+    font-size: 60px;
+}
+
+.p {
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 30%;
+    text-align: start;
+    color: white;
+    font-size: 18px;
+}
+
+.imagem-detalhe {
+    background-image: url(/02/imagens/bg_detalhe.png);
+    height: 300px;
+    background-position: right center;
+    background-size: cover;
+    border-radius: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.h2-2,
+.p-2 {
+    text-align: center;
+    color: rgb(12, 110, 110);
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+.h2-2 {
+    margin-top: 60px;
+}
+
+.footer {
+    background-color: black;
+    color: rgb(222, 228, 228);
+    text-align: center;
+    padding: 10px;
+}
+
+.mapa {
+    height: 500px;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    border-radius: 15px;
+
+}
